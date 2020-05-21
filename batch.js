@@ -21,6 +21,13 @@ getHtml()
     .then(html => {
         if(html.data.includes('officenex')){
             console.log('오피스넥스 있음');
+            var mailOptions = {
+                from: 'no-reply@pango-gy.com',
+                to: 'pinkyooysj@pango-gy.com,hdk3383@pango-gy.com,sonh1230@pango-gy.com',
+                subject: "네이버에서 오피스넥스 광고가 노출이 안되는것으로 확인됩니다.(테스트)",
+                html: "네이버에서 오피스넥스 광고가 노출이 안되는것으로 확인됩니다."
+            }
+            transporter.sendMail(mailOptions);
         } else {
             var mailOptions = {
                 from: 'no-reply@pango-gy.com',
