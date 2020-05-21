@@ -1,0 +1,25 @@
+{
+  "name": "node_officenex_naverpowerlink_crawler",
+  "version": "1.0.0",
+  "description": "node_officenex_naverpowerlink_crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sogangCSmaster/node_officenex_naverpowerlink_crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sogangCSmaster/node_officenex_naverpowerlink_crawler/issues"
+  },
+  "homepage": "https://github.com/sogangCSmaster/node_officenex_naverpowerlink_crawler#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "nodemailer": "^6.4.6"
+  }
+}
